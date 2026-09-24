@@ -54,3 +54,16 @@ dmypy.json
 
 .venv/
 *.parquet
+# CGM-JEPA baseline: local scaffolding and downloaded weights
+.pylibs/
+.venv-linux/
+.venv-linux-tmp/
+.claude-tmp/
+.exectest.sh
+.symtest
+weights/
+results/
+logs/
+# Fine-tuning: window cache and checkpoints (regenerable, large)
+cache/
+checkpoints/
